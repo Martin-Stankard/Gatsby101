@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Gatsby learning effort 101",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "It all is coming from: https://youtu.be/lvq2nc3WkZU",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "naaaa <naa@email.com>",
   "dependencies": {
     "gatsby": "^2.1.19",
     "gatsby-image": "^2.0.30",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Martin-Stankard/Gatsby101"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
