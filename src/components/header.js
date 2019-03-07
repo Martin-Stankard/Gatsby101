@@ -7,47 +7,45 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
-} from 'reactstrap'
+  NavLink,
+} from "reactstrap"
 
-class Header extends Component{
+class Header extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
-    this.toggle = this.toggle.bind(this);
+    this.toggle = this.toggle.bind(this)
     this.state = {
-      isOpen: false
-    };
+      isOpen: false,
+    }
   }
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
-    });
+      isOpen: !this.state.isOpen,
+    })
   }
   render() {
     return (
-      <div>
+      <Navbar fixed="top" light expand="sm">
         <div className="container">
-          <Navbar fixed ="top" light expand="sm">
-            <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink href="/team">Team</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/tags">Tags</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/about">About</NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </Navbar>
+          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="/team">Team</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/tags">Tags</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about">About</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
         </div>
-      </div>
-    );
+      </Navbar>
+    )
   }
 }
 
