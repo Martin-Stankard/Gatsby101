@@ -1,8 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <h1>My Gatsby 101 Learing effort</h1>
-  <a href="https://youtu.be/lvq2nc3WkZU"> ALL CREDIT TO THIS SERIES OF VIDEOS!!!!</a>
-  <a href="https://objective-montalcini-bff1af.netlify.com">My Netlify deployment...</a>
+  <a href="https://youtu.be/lvq2nc3WkZU"> ALL CREDIT TO THIS SERIES OF VIDEOS!!!!</a></br>
+  <a href="https://objective-montalcini-bff1af.netlify.com">My Netlify deployment...</a></br>
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
