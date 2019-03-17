@@ -1,5 +1,6 @@
-import PropTypes from "prop-types"
-import React, { Component } from "react"
+import PropTypes from 'prop-types'
+import React from 'react'
+
 import {
   Collapse,
   Navbar,
@@ -8,9 +9,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-} from "reactstrap"
+} from 'reactstrap'
 
-class Header extends Component {
+class Header extends React.Component {
   constructor(props) {
     super(props)
 
@@ -26,25 +27,27 @@ class Header extends Component {
   }
   render() {
     return (
-      <Navbar fixed="top" light expand="sm">
-        <div className="container">
-          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/team">Team</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/tags">Tags</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/about">About</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </div>
-      </Navbar>
+      <div>
+        <Navbar fixed="top" light expand="sm">
+          <div className="container">
+            <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink href="/team">Team</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/tags">Tags</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/about">About</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
+        </Navbar>
+      </div>
     )
   }
 }

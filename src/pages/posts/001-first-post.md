@@ -1,9 +1,10 @@
 ---
 title: 'First Post - Introduction'
-date: 2018-3-04 18:00:00
+date: 2018-12-01 07:00:00
 author: 'John Doe'
-path: '/first-post'
-image: '../../images/javascript.jpg
---- 
+image: ../../images/javascript.jpg
+tags:
+  - code
+---
 
-This is the code blog content. It is king. Kneal before this content. The point of this  IS NOT to sharpen my coding skills utilizing Gatsby or deploying the product to AWS but this. This is the content.
+Welcome to Code Blog, I hope you enjoy the content, Welcome to Code Blog, I hope you enjoy the content, Welcome to Code Blog, I hope you enjoy the content, Welcome to Code Blog, I hope you enjoy the content, Welcome to Code Blog, I hope you enjoy the content.
