@@ -5,7 +5,7 @@
   <a href="https://objective-montalcini-bff1af.netlify.com">My Netlify deployment...</a><br/>
   <p>And continuting the video series toward deploying to AWS, via Travis CI</p>
   <p>Based on <a href="https://justinwhall.com/deploying-gatsby-to-amazon-s3-with-travis-ci/">THIS</a> blog post.</p> <br/>
-  <a href="http://gatsby101.s3-website-us-east-1.amazonaws.com/">my AWS deployment</a><br/><br/>
+  <a href="http://aws-ml.com/">my AWS deployment</a><br/><br/>
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
